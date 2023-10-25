@@ -10,12 +10,8 @@ using static UnityEngine.GraphicsBuffer;
 /* Additions:
  * Can add catapult - huge range and damage super slow fire rate
  * Add new particle systems - ice, fire to bullets
- * Add elemental damage: Ice freezes fire, 
+ * Add elemental damage: Ice freezes fire,
  * 
- * ANother game idea: 
- * 3d tower defense first person - save village, can grab different weapons such as sword bow etc.
- * can purchase defenses - ai towers like catapult etc
- * can build village huts for soldiers
  */
 
 public class GameController : MonoBehaviour

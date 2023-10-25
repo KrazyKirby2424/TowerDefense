@@ -132,7 +132,7 @@ public class WaveSpawnPooling : MonoBehaviour
         enemyCount++;
         if(currentWave % 10 == 0) //Spawn Boss
         {
-            if(enemyCount < WaveSize-1) //last spawn boss
+            if(enemyCount < WaveSize) 
             {
                 if (spawnRef < 2)
                 {
@@ -145,7 +145,7 @@ public class WaveSpawnPooling : MonoBehaviour
                     spawnRef = 0;
                 }
             }
-            else
+            else //last spawn boss when count hits wavesize
             {
                 poolBoss.Get();
                 spawnRef = 0;
